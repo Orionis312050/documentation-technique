@@ -17,16 +17,16 @@ fetch() { # $1 = repo, $2 = target dir under docs/
 
 fetch dotnet-llmstxt dotnet
 fetch typescript-llmstxt typescript
-fetch python-llmstxt python
+fetch angular-llmstxt angular
 
 # category roots for the 3 languages (kept if already present, created otherwise)
-for lang in dotnet typescript python; do
+for lang in dotnet typescript angular; do
   [ -f "docs/$lang/_category_.json" ] || case "$lang" in
     dotnet)     printf '{\n  "label": "C# (.NET)",\n  "position": 1,\n  "collapsed": false\n}\n' ;;
     typescript) printf '{\n  "label": "TypeScript",\n  "position": 2,\n  "collapsed": false\n}\n' ;;
-    python)     printf '{\n  "label": "Python",\n  "position": 3,\n  "collapsed": false\n}\n' ;;
+    angular)    printf '{\n  "label": "Angular",\n  "position": 3,\n  "collapsed": false\n}\n' ;;
   esac > "docs/$lang/_category_.json"
 done
 
 echo "Done. docs/ now contains: $(find docs -name '*.md' | wc -l) pages, $(find docs -name '_category_.json' | wc -l) _category_.json"
-echo "Commit and push: git add -A && git commit -m 'Add docs/ for C#, TypeScript and Python' && git push"
+echo "Commit and push: git add -A && git commit -m 'Add docs/ for C#, TypeScript and Angular' && git push"
