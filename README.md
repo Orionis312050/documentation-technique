@@ -21,10 +21,22 @@
 
 ## Assemblage de `docs/` (une seule fois)
 
+En **ligne** (clone depuis GitHub) :
+
 ```bash
 git clone https://github.com/Orionis312050/documentation-technique.git
 cd documentation-technique
-bash sync-docs.sh                 # copie docs/dotnet, docs/typescript, docs/angular depuis les 3 dépôts
+bash sync-docs.sh                 # clone les 3 dépôts puis copie docs/dotnet, docs/typescript, docs/angular
+git add -A && git commit -m "Add docs/ for C#, TypeScript and Angular" && git push
+```
+
+En **environnement fermé** (projets déjà présents en local, aucun fetch) :
+
+```bash
+git clone https://github.com/Orionis312050/documentation-technique.git   # ou copie locale du dépôt
+cd documentation-technique
+bash sync-docs.sh /chemin/vers/dotnet-llmstxt /chemin/vers/typescript-llmstxt /chemin/vers/angular-llmstxt
+# ou : DOTNET_REPO=... TS_REPO=... ANGULAR_REPO=... bash sync-docs.sh
 git add -A && git commit -m "Add docs/ for C#, TypeScript and Angular" && git push
 ```
 
