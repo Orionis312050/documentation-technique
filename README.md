@@ -11,12 +11,21 @@
 ## Structure
 
 - `llms.txt` : index global des 3 documentations (liens relatifs vers `docs/`).
+- `sync-docs.sh` : assemble `docs/<langage>/` depuis les dépôts `dotnet-llmstxt`, `typescript-llmstxt`, `python-llmstxt`.
 - `docs/<langage>/<categorie>/<feature>.md` : **une feature par fichier**, contenu complet inline.
-  - `docs/dotnet/` — édition C# (.NET) (depuis `dotnet-llmstxt`)
-  - `docs/typescript/` — édition TypeScript (depuis `typescript-llmstxt`)
-  - `docs/python/` — édition Python (depuis `python-llmstxt`)
 - Chaque dossier — y compris `docs/<langage>/` — contient un `_category_.json` (compatible **Docusaurus**), donc le site génère 3 grandes sections : C# (.NET), TypeScript, Python.
 - Tous les cross-references sont des liens relatifs intra-dépôt : **aucun fetch externe requis** (environnement fermé).
+
+## Assemblage de `docs/` (une seule fois)
+
+```bash
+git clone https://github.com/Orionis312050/documentation-technique.git
+cd documentation-technique
+bash sync-docs.sh                 # copie docs/dotnet, docs/typescript, docs/python depuis les 3 dépôts
+git add -A && git commit -m "Add docs/ for C#, TypeScript and Python" && git push
+```
+
+`docs/` fait ~1,3 Mo (239 pages) : il est assemblé depuis les dépôts dédiés plutôt que poussé fichier par fichier.
 
 ## Utilisation avec Docusaurus
 
