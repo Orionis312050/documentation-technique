@@ -1,7 +1,7 @@
-# Teams SDK - Documentation Technique (offline, all languages)
+# Teams SDK & Angular — Documentation Technique (offline)
 
-> Offline edition combining the C# (.NET), TypeScript and Python editions of the Teams SDK docs
-> (from https://microsoft.github.io/teams-sdk/llms_docs/llms_csharp.txt, llms_typescript.txt, llms_python.txt + full content).
+> Offline edition combining the Teams SDK docs (C# .NET, TypeScript) and the Angular docs
+> (from https://microsoft.github.io/teams-sdk/llms_docs/llms_csharp.txt, llms_typescript.txt and https://angular.dev/llms.txt + full content).
 > Every feature lives in its own file under `docs/<language>/<category>/`; all cross-references are relative links inside this repo — no external fetching needed.
 
 ## C# (.NET)
@@ -138,68 +138,140 @@
 - [In-Depth Guides](docs/typescript/in-depth-guides.md)
 - [Teams Integration](docs/typescript/teams-integration.md)
 
-## Python
+## Angular
 
-### Developer Tools
+### Accessibility
 
-- [Agent Skills](docs/python/developer-tools/agent-skills.md)
-- [Exposing Your Local App with a Tunnel](docs/python/developer-tools/exposing-your-local-app-with-a-tunnel.md)
-- [llms.txt](docs/python/developer-tools/llmstxt.md)
-- [🎮 Microsoft 365 Agents Playground](docs/python/developer-tools/microsoft-365-agents-playground.md)
-- [Teams Developer CLI](docs/python/developer-tools/teams-developer-cli.md)
+- [Angular Aria overview](docs/angular/accessibility/overview-3.md)
 
-### Essentials
+### Animations
 
-- [App Authentication](docs/python/essentials/app-authentication.md)
-- [App Basics](docs/python/essentials/app-basics.md)
-- [Graph API Client](docs/python/essentials/graph-api-client.md)
-- [Listening To Activities](docs/python/essentials/listening-to-activities.md)
-- [Listening To Events](docs/python/essentials/listening-to-events.md)
-- [Sending Messages](docs/python/essentials/sending-messages.md)
-- [Teams API Client](docs/python/essentials/teams-api-client.md)
+- [Animations your content](docs/angular/animations/css.md)
+- [Migrating to native CSS animations](docs/angular/animations/migration.md)
+- [Route transition animation](docs/angular/animations/route-transition-animations.md)
 
-### Get Started
+### Apis
 
-- [Quickstart: Build your first bot](docs/python/get-started/quickstart-build-your-first-bot.md)
-- [Quickstart: Register your app](docs/python/get-started/quickstart-register-your-app.md)
+- [API reference](docs/angular/apis/api.md)
+- [CLI command reference](docs/angular/apis/cli-2.md)
 
-### Getting Started
+### Components
 
-- [Code Basics](docs/python/getting-started/code-basics.md)
-- [Quickstart](docs/python/getting-started/quickstart.md)
+- [What is a component](docs/angular/components/components.md)
+- [Content projection](docs/angular/components/content-projection.md)
+- [Accepting data with input properties](docs/angular/components/inputs.md)
+- [Component lifecycle](docs/angular/components/lifecycle.md)
+- [Custom events with output](docs/angular/components/outputs.md)
+- [Component selectors](docs/angular/components/selectors.md)
+- [Styling components](docs/angular/components/styling.md)
 
-### In Depth Guides
+### Dependency Injection Di
 
-- [Adaptive Cards](docs/python/in-depth-guides/adaptive-cards.md)
-- [Agentic Identity](docs/python/in-depth-guides/agentic-identity.md)
-- [AI Integrations](docs/python/in-depth-guides/ai-integrations.md)
-- [Dialogs](docs/python/in-depth-guides/dialogs.md)
-- [Feedback](docs/python/in-depth-guides/feedback.md)
-- [File and Image Handling](docs/python/in-depth-guides/file-and-image-handling.md)
-- [HTML Widgets](docs/python/in-depth-guides/html-widgets.md)
-- [Meeting Events](docs/python/in-depth-guides/meeting-events.md)
-- [📖 Message Extensions](docs/python/in-depth-guides/message-extensions.md)
-- [Message Reactions](docs/python/in-depth-guides/message-reactions.md)
-- [Microsoft 365 Extensions](docs/python/in-depth-guides/microsoft-365-extensions.md)
-- [State Management](docs/python/in-depth-guides/state-management.md)
-- [🔒 User Authentication](docs/python/in-depth-guides/user-authentication.md)
+- [Creating and using services](docs/angular/dependency-injection-di/creating-and-using-services.md)
+- [Defining dependency providers](docs/angular/dependency-injection-di/defining-dependency-providers.md)
+- [Injection context](docs/angular/dependency-injection-di/dependency-injection-context.md)
+- [Dependency Injection overview](docs/angular/dependency-injection-di/di.md)
+- [Hierarchical injectors](docs/angular/dependency-injection-di/hierarchical-dependency-injection.md)
+- [Lazy loading services](docs/angular/dependency-injection-di/lazy-loading-services.md)
+- [Optimizing Injection tokens](docs/angular/dependency-injection-di/lightweight-injection-tokens.md)
 
-### Migrations
+### Directives
 
+- [Attribute directives](docs/angular/directives/attribute-directives.md)
+- [Directive composition](docs/angular/directives/directive-composition-api.md)
+- [Directives overview](docs/angular/directives/directives.md)
+- [Optimizing images](docs/angular/directives/image-optimization.md)
+- [Structural directives](docs/angular/directives/structural-directives.md)
 
-### Teams
+### Forms
 
-- [App Authentication Setup](docs/python/teams/app-authentication-setup.md)
-- [Azure Configuration](docs/python/teams/azure-configuration.md)
-- [Enabling in M365 Copilot](docs/python/teams/enabling-in-m365-copilot.md)
-- [Pick the right SDK for your Teams agent](docs/python/teams/pick-the-right-sdk-for-your-teams-agent.md)
-- [Teams Core Concepts](docs/python/teams/teams-core-concepts.md)
-- [Teams Manifest](docs/python/teams/teams-manifest.md)
-- [User Authentication](docs/python/teams/user-authentication.md)
+- [Building dynamic forms](docs/angular/forms/dynamic-forms.md)
+- [Validate forms input](docs/angular/forms/form-validation.md)
+- [Forms overview](docs/angular/forms/forms.md)
+- [Signal Forms](docs/angular/forms/overview-2.md)
+- [Reactive Forms](docs/angular/forms/reactive-forms.md)
+- [Template driven forms](docs/angular/forms/template-driven-forms.md)
+- [Strictly types forms](docs/angular/forms/typed-forms.md)
 
-### General
+### Loading Data
 
-- [Developer Tools](docs/python/developer-tools.md)
-- [Essentials](docs/python/essentials.md)
-- [In-Depth Guides](docs/python/in-depth-guides.md)
-- [Teams Integration](docs/python/teams-integration.md)
+- [Reactive data fetching with httpResource](docs/angular/loading-data/http-resource.md)
+- [HttpClient overview](docs/angular/loading-data/http.md)
+- [Intercepting requests](docs/angular/loading-data/interceptors.md)
+- [Making requests](docs/angular/loading-data/making-requests.md)
+- [Setting up the HttpClient](docs/angular/loading-data/setup.md)
+- [Testing](docs/angular/loading-data/testing.md)
+
+### Others
+
+- [Contribute to Angular](docs/angular/others/contributingmd.md)
+- [Error encyclopedia](docs/angular/others/errors.md)
+- [Extended diagnostics](docs/angular/others/extended-diagnostics.md)
+- [Internationalization (i18n)](docs/angular/others/i18n.md)
+- [Angular's Roadmap](docs/angular/others/roadmap.md)
+- [Security](docs/angular/others/security.md)
+- [Update guide](docs/angular/others/update-guide.md)
+- [Keeping your projects up-to-date](docs/angular/others/update.md)
+- [Zoneless](docs/angular/others/zoneless.md)
+
+### Routing
+
+- [Common routing tasks](docs/angular/routing/common-router-tasks.md)
+- [Define routes](docs/angular/routing/define-routes.md)
+- [Route loading strategies](docs/angular/routing/loading-strategies.md)
+- [Navigate to routes](docs/angular/routing/navigate-to-routes.md)
+- [Read route state](docs/angular/routing/read-route-state.md)
+- [Creating custom route matches](docs/angular/routing/routing-with-urlmatcher.md)
+- [Routing overview](docs/angular/routing/routing.md)
+- [Show routes with outlets](docs/angular/routing/show-routes-with-outlets.md)
+
+### Rxjs
+
+- [Component output interop](docs/angular/rxjs/output-interop.md)
+- [RxJS interop with Angular signals](docs/angular/rxjs/rxjs-interop.md)
+
+### Server Side Rendering Ssr
+
+- [Angular CLI Overview](docs/angular/server-side-rendering-ssr/cli.md)
+- [Hydration](docs/angular/server-side-rendering-ssr/hydration.md)
+- [Incremental Hydration](docs/angular/server-side-rendering-ssr/incremental-hydration.md)
+- [SSR Overview](docs/angular/server-side-rendering-ssr/performance.md)
+- [Rendering strategies in Angular](docs/angular/server-side-rendering-ssr/rendering-strategies.md)
+- [Server and hybrid rendering](docs/angular/server-side-rendering-ssr/ssr.md)
+
+### Signals
+
+- [Dependent state with linkedSignal](docs/angular/signals/linked-signal.md)
+- [Async reactivity with resources](docs/angular/signals/resource.md)
+- [Signals overview](docs/angular/signals/signals.md)
+
+### Table Of Contents
+
+- [Installation guide](docs/angular/table-of-contents/installation.md)
+- [What is Angular](docs/angular/table-of-contents/overview.md)
+- [Style Guide](docs/angular/table-of-contents/style-guide.md)
+
+### Templates Guides
+
+- [Binding text, properties and attributes](docs/angular/templates-guides/binding.md)
+- [Control Flow](docs/angular/templates-guides/control-flow.md)
+- [Deferred loading of components](docs/angular/templates-guides/defer.md)
+- [Adding event listeners](docs/angular/templates-guides/event-listeners.md)
+- [Expression syntax](docs/angular/templates-guides/expression-syntax.md)
+- [Template Overview](docs/angular/templates-guides/templates.md)
+- [Template variable declaration](docs/angular/templates-guides/variables.md)
+
+### Testing
+
+- [Testing attribute directives](docs/angular/testing/attribute-directives-2.md)
+- [Testing coverage](docs/angular/testing/code-coverage.md)
+- [Component harness overview](docs/angular/testing/component-harnesses-overview.md)
+- [Basics of component testing](docs/angular/testing/components-basics.md)
+- [Component testing scenarios](docs/angular/testing/components-scenarios.md)
+- [Creating a component harness for your components](docs/angular/testing/creating-component-harnesses.md)
+- [Debugging tests](docs/angular/testing/debugging.md)
+- [Testing pipes](docs/angular/testing/pipes.md)
+- [Testing services](docs/angular/testing/services.md)
+- [Testing overview](docs/angular/testing/testing-2.md)
+- [Using component harness in tests](docs/angular/testing/using-component-harnesses.md)
+- [Testing utility apis](docs/angular/testing/utility-apis.md)
