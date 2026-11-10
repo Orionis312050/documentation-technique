@@ -1,0 +1,205 @@
+# Teams SDK - Documentation Technique (offline, all languages)
+
+> Offline edition combining the C# (.NET), TypeScript and Python editions of the Teams SDK docs
+> (from https://microsoft.github.io/teams-sdk/llms_docs/llms_csharp.txt, llms_typescript.txt, llms_python.txt + full content).
+> Every feature lives in its own file under `docs/<language>/<category>/`; all cross-references are relative links inside this repo — no external fetching needed.
+
+## C# (.NET)
+
+### Developer Tools
+
+- [Agent Skills](docs/dotnet/developer-tools/agent-skills.md)
+- [Exposing Your Local App with a Tunnel](docs/dotnet/developer-tools/exposing-your-local-app-with-a-tunnel.md)
+- [llms.txt](docs/dotnet/developer-tools/llmstxt.md)
+- [🎮 Microsoft 365 Agents Playground](docs/dotnet/developer-tools/microsoft-365-agents-playground.md)
+- [Teams Developer CLI](docs/dotnet/developer-tools/teams-developer-cli.md)
+
+### Essentials
+
+- [App Authentication](docs/dotnet/essentials/app-authentication.md)
+- [App Basics](docs/dotnet/essentials/app-basics.md)
+- [Graph API Client](docs/dotnet/essentials/graph-api-client.md)
+- [Listening To Activities](docs/dotnet/essentials/listening-to-activities.md)
+- [Middleware](docs/dotnet/essentials/middleware.md)
+- [Sending Messages](docs/dotnet/essentials/sending-messages.md)
+- [Teams API Client](docs/dotnet/essentials/teams-api-client.md)
+
+### Get Started
+
+- [Quickstart: Build your first bot](docs/dotnet/get-started/quickstart-build-your-first-bot.md)
+- [Quickstart: Register your app](docs/dotnet/get-started/quickstart-register-your-app.md)
+
+### Getting Started
+
+- [Code Basics](docs/dotnet/getting-started/code-basics.md)
+- [Quickstart](docs/dotnet/getting-started/quickstart.md)
+
+### In Depth Guides
+
+- [Adaptive Cards](docs/dotnet/in-depth-guides/adaptive-cards.md)
+- [Agentic Identity](docs/dotnet/in-depth-guides/agentic-identity.md)
+- [AI Integrations](docs/dotnet/in-depth-guides/ai-integrations.md)
+- [Dialogs](docs/dotnet/in-depth-guides/dialogs.md)
+- [Feedback](docs/dotnet/in-depth-guides/feedback.md)
+- [File and Image Handling](docs/dotnet/in-depth-guides/file-and-image-handling.md)
+- [HTML Widgets](docs/dotnet/in-depth-guides/html-widgets.md)
+- [Meeting Events](docs/dotnet/in-depth-guides/meeting-events.md)
+- [📖 Message Extensions](docs/dotnet/in-depth-guides/message-extensions.md)
+- [Message Reactions](docs/dotnet/in-depth-guides/message-reactions.md)
+- [Microsoft 365 Extensions](docs/dotnet/in-depth-guides/microsoft-365-extensions.md)
+- [State Management](docs/dotnet/in-depth-guides/state-management.md)
+- [Tabs](docs/dotnet/in-depth-guides/tabs.md)
+- [🔒 User Authentication](docs/dotnet/in-depth-guides/user-authentication.md)
+
+### Migrations
+
+
+### Teams
+
+- [App Authentication Setup](docs/dotnet/teams/app-authentication-setup.md)
+- [Azure Configuration](docs/dotnet/teams/azure-configuration.md)
+- [Enabling in M365 Copilot](docs/dotnet/teams/enabling-in-m365-copilot.md)
+- [Pick the right SDK for your Teams agent](docs/dotnet/teams/pick-the-right-sdk-for-your-teams-agent.md)
+- [Teams Core Concepts](docs/dotnet/teams/teams-core-concepts.md)
+- [Teams Manifest](docs/dotnet/teams/teams-manifest.md)
+- [User Authentication](docs/dotnet/teams/user-authentication.md)
+
+### General
+
+- [Developer Tools](docs/dotnet/developer-tools.md)
+- [Essentials](docs/dotnet/essentials.md)
+- [In-Depth Guides](docs/dotnet/in-depth-guides.md)
+- [Teams Integration](docs/dotnet/teams-integration.md)
+
+## TypeScript
+
+### Developer Tools
+
+- [Agent Skills](docs/typescript/developer-tools/agent-skills.md)
+- [Exposing Your Local App with a Tunnel](docs/typescript/developer-tools/exposing-your-local-app-with-a-tunnel.md)
+- [llms.txt](docs/typescript/developer-tools/llmstxt.md)
+- [🎮 Microsoft 365 Agents Playground](docs/typescript/developer-tools/microsoft-365-agents-playground.md)
+- [Teams Developer CLI](docs/typescript/developer-tools/teams-developer-cli.md)
+
+### Essentials
+
+- [App Authentication](docs/typescript/essentials/app-authentication.md)
+- [App Basics](docs/typescript/essentials/app-basics.md)
+- [Graph API Client](docs/typescript/essentials/graph-api-client.md)
+- [Listening To Activities](docs/typescript/essentials/listening-to-activities.md)
+- [Listening To Events](docs/typescript/essentials/listening-to-events.md)
+- [Sending Messages](docs/typescript/essentials/sending-messages.md)
+- [Teams API Client](docs/typescript/essentials/teams-api-client.md)
+
+### Get Started
+
+- [Quickstart: Build your first bot](docs/typescript/get-started/quickstart-build-your-first-bot.md)
+- [Quickstart: Register your app](docs/typescript/get-started/quickstart-register-your-app.md)
+
+### Getting Started
+
+- [Code Basics](docs/typescript/getting-started/code-basics.md)
+- [Quickstart](docs/typescript/getting-started/quickstart.md)
+
+### In Depth Guides
+
+- [Adaptive Cards](docs/typescript/in-depth-guides/adaptive-cards.md)
+- [Agentic Identity](docs/typescript/in-depth-guides/agentic-identity.md)
+- [AI Integrations](docs/typescript/in-depth-guides/ai-integrations.md)
+- [Dialogs](docs/typescript/in-depth-guides/dialogs.md)
+- [Feedback](docs/typescript/in-depth-guides/feedback.md)
+- [File and Image Handling](docs/typescript/in-depth-guides/file-and-image-handling.md)
+- [HTML Widgets](docs/typescript/in-depth-guides/html-widgets.md)
+- [Meeting Events](docs/typescript/in-depth-guides/meeting-events.md)
+- [📖 Message Extensions](docs/typescript/in-depth-guides/message-extensions.md)
+- [Message Reactions](docs/typescript/in-depth-guides/message-reactions.md)
+- [Microsoft 365 Extensions](docs/typescript/in-depth-guides/microsoft-365-extensions.md)
+- [State Management](docs/typescript/in-depth-guides/state-management.md)
+- [Tabs](docs/typescript/in-depth-guides/tabs.md)
+- [🔒 User Authentication](docs/typescript/in-depth-guides/user-authentication.md)
+
+### Migrations
+
+
+### Teams
+
+- [App Authentication Setup](docs/typescript/teams/app-authentication-setup.md)
+- [Azure Configuration](docs/typescript/teams/azure-configuration.md)
+- [Enabling in M365 Copilot](docs/typescript/teams/enabling-in-m365-copilot.md)
+- [Pick the right SDK for your Teams agent](docs/typescript/teams/pick-the-right-sdk-for-your-teams-agent.md)
+- [Teams Core Concepts](docs/typescript/teams/teams-core-concepts.md)
+- [Teams Manifest](docs/typescript/teams/teams-manifest.md)
+- [User Authentication](docs/typescript/teams/user-authentication.md)
+
+### General
+
+- [Developer Tools](docs/typescript/developer-tools.md)
+- [Essentials](docs/typescript/essentials.md)
+- [In-Depth Guides](docs/typescript/in-depth-guides.md)
+- [Teams Integration](docs/typescript/teams-integration.md)
+
+## Python
+
+### Developer Tools
+
+- [Agent Skills](docs/python/developer-tools/agent-skills.md)
+- [Exposing Your Local App with a Tunnel](docs/python/developer-tools/exposing-your-local-app-with-a-tunnel.md)
+- [llms.txt](docs/python/developer-tools/llmstxt.md)
+- [🎮 Microsoft 365 Agents Playground](docs/python/developer-tools/microsoft-365-agents-playground.md)
+- [Teams Developer CLI](docs/python/developer-tools/teams-developer-cli.md)
+
+### Essentials
+
+- [App Authentication](docs/python/essentials/app-authentication.md)
+- [App Basics](docs/python/essentials/app-basics.md)
+- [Graph API Client](docs/python/essentials/graph-api-client.md)
+- [Listening To Activities](docs/python/essentials/listening-to-activities.md)
+- [Listening To Events](docs/python/essentials/listening-to-events.md)
+- [Sending Messages](docs/python/essentials/sending-messages.md)
+- [Teams API Client](docs/python/essentials/teams-api-client.md)
+
+### Get Started
+
+- [Quickstart: Build your first bot](docs/python/get-started/quickstart-build-your-first-bot.md)
+- [Quickstart: Register your app](docs/python/get-started/quickstart-register-your-app.md)
+
+### Getting Started
+
+- [Code Basics](docs/python/getting-started/code-basics.md)
+- [Quickstart](docs/python/getting-started/quickstart.md)
+
+### In Depth Guides
+
+- [Adaptive Cards](docs/python/in-depth-guides/adaptive-cards.md)
+- [Agentic Identity](docs/python/in-depth-guides/agentic-identity.md)
+- [AI Integrations](docs/python/in-depth-guides/ai-integrations.md)
+- [Dialogs](docs/python/in-depth-guides/dialogs.md)
+- [Feedback](docs/python/in-depth-guides/feedback.md)
+- [File and Image Handling](docs/python/in-depth-guides/file-and-image-handling.md)
+- [HTML Widgets](docs/python/in-depth-guides/html-widgets.md)
+- [Meeting Events](docs/python/in-depth-guides/meeting-events.md)
+- [📖 Message Extensions](docs/python/in-depth-guides/message-extensions.md)
+- [Message Reactions](docs/python/in-depth-guides/message-reactions.md)
+- [Microsoft 365 Extensions](docs/python/in-depth-guides/microsoft-365-extensions.md)
+- [State Management](docs/python/in-depth-guides/state-management.md)
+- [🔒 User Authentication](docs/python/in-depth-guides/user-authentication.md)
+
+### Migrations
+
+
+### Teams
+
+- [App Authentication Setup](docs/python/teams/app-authentication-setup.md)
+- [Azure Configuration](docs/python/teams/azure-configuration.md)
+- [Enabling in M365 Copilot](docs/python/teams/enabling-in-m365-copilot.md)
+- [Pick the right SDK for your Teams agent](docs/python/teams/pick-the-right-sdk-for-your-teams-agent.md)
+- [Teams Core Concepts](docs/python/teams/teams-core-concepts.md)
+- [Teams Manifest](docs/python/teams/teams-manifest.md)
+- [User Authentication](docs/python/teams/user-authentication.md)
+
+### General
+
+- [Developer Tools](docs/python/developer-tools.md)
+- [Essentials](docs/python/essentials.md)
+- [In-Depth Guides](docs/python/in-depth-guides.md)
+- [Teams Integration](docs/python/teams-integration.md)
