@@ -1,7 +1,7 @@
 # Teams SDK & Angular — Documentation Technique (offline)
 
-> Offline edition combining the Teams SDK docs (C# .NET, TypeScript) and the Angular docs
-> (from https://microsoft.github.io/teams-sdk/llms_docs/llms_csharp.txt, llms_typescript.txt and https://angular.dev/llms.txt + full content).
+> Offline edition combining the Teams SDK docs (C# .NET, TypeScript, Python) and the Angular docs
+> (from https://microsoft.github.io/teams-sdk/llms_docs/llms_csharp.txt, llms_typescript.txt, llms_python.txt and https://angular.dev/llms.txt + full content).
 > Every feature lives in its own file under `docs/<language>/<category>/`; all cross-references are relative links inside this repo — no external fetching needed.
 
 ## C# (.NET)
@@ -275,3 +275,69 @@
 - [Testing overview](docs/angular/testing/testing-2.md)
 - [Using component harness in tests](docs/angular/testing/using-component-harnesses.md)
 - [Testing utility apis](docs/angular/testing/utility-apis.md)
+
+## Python
+
+### Developer Tools
+
+- [Agent Skills](docs/python/developer-tools/agent-skills.md)
+- [Exposing Your Local App with a Tunnel](docs/python/developer-tools/exposing-your-local-app-with-a-tunnel.md)
+- [llms.txt](docs/python/developer-tools/llmstxt.md)
+- [🎮 Microsoft 365 Agents Playground](docs/python/developer-tools/microsoft-365-agents-playground.md)
+- [Teams Developer CLI](docs/python/developer-tools/teams-developer-cli.md)
+
+### Essentials
+
+- [App Authentication](docs/python/essentials/app-authentication.md)
+- [App Basics](docs/python/essentials/app-basics.md)
+- [Graph API Client](docs/python/essentials/graph-api-client.md)
+- [Listening To Activities](docs/python/essentials/listening-to-activities.md)
+- [Listening To Events](docs/python/essentials/listening-to-events.md)
+- [Sending Messages](docs/python/essentials/sending-messages.md)
+- [Teams API Client](docs/python/essentials/teams-api-client.md)
+
+### Get Started
+
+- [Quickstart: Build your first bot](docs/python/get-started/quickstart-build-your-first-bot.md)
+- [Quickstart: Register your app](docs/python/get-started/quickstart-register-your-app.md)
+
+### Getting Started
+
+- [Code Basics](docs/python/getting-started/code-basics.md)
+- [Quickstart](docs/python/getting-started/quickstart.md)
+
+### In Depth Guides
+
+- [Adaptive Cards](docs/python/in-depth-guides/adaptive-cards.md)
+- [Agentic Identity](docs/python/in-depth-guides/agentic-identity.md)
+- [AI Integrations](docs/python/in-depth-guides/ai-integrations.md)
+- [Dialogs](docs/python/in-depth-guides/dialogs.md)
+- [Feedback](docs/python/in-depth-guides/feedback.md)
+- [File and Image Handling](docs/python/in-depth-guides/file-and-image-handling.md)
+- [HTML Widgets](docs/python/in-depth-guides/html-widgets.md)
+- [Meeting Events](docs/python/in-depth-guides/meeting-events.md)
+- [📖 Message Extensions](docs/python/in-depth-guides/message-extensions.md)
+- [Message Reactions](docs/python/in-depth-guides/message-reactions.md)
+- [Microsoft 365 Extensions](docs/python/in-depth-guides/microsoft-365-extensions.md)
+- [State Management](docs/python/in-depth-guides/state-management.md)
+- [🔒 User Authentication](docs/python/in-depth-guides/user-authentication.md)
+
+### Migrations
+
+
+### Teams
+
+- [App Authentication Setup](docs/python/teams/app-authentication-setup.md)
+- [Azure Configuration](docs/python/teams/azure-configuration.md)
+- [Enabling in M365 Copilot](docs/python/teams/enabling-in-m365-copilot.md)
+- [Pick the right SDK for your Teams agent](docs/python/teams/pick-the-right-sdk-for-your-teams-agent.md)
+- [Teams Core Concepts](docs/python/teams/teams-core-concepts.md)
+- [Teams Manifest](docs/python/teams/teams-manifest.md)
+- [User Authentication](docs/python/teams/user-authentication.md)
+
+### General
+
+- [Developer Tools](docs/python/developer-tools.md)
+- [Essentials](docs/python/essentials.md)
+- [In-Depth Guides](docs/python/in-depth-guides.md)
+- [Teams Integration](docs/python/teams-integration.md)
